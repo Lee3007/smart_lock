@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "smart_lock",
+    "slug": "smart_lock",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "SmartLock needs to use your Camera.",
+        "NSPhotoLibraryUsageDescription": "SmartLock needs to use you photo library.",
+        "NSFaceIDUsageDescription": "SmartLock needs to use Face ID / Touch ID to authenticate you."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.r3solv.smart_lock"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1970347-9ee5-42b8-99f7-bd2362413c66"
+      }
+    }
+  }
+}
